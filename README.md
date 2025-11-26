@@ -3,8 +3,11 @@
 - Python MCP SDK **1.2.0+**
 
 ---
-
 2. Create and configure the project
+
+
+```
+
 # Create a new directory for the project
 uv init weather
 cd weather
@@ -18,3 +21,4 @@ uv add mcp[cli] httpx
 
 # Create the server file
 new-item weather.py
+```
